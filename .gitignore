@@ -1,0 +1,14 @@
+.tmp_*
+.project
+*.idea
+.DS_Store
+node_modules
+todo.md
+index-debug.html
+
+# Sublime Project files
+*.sublime-*
+src
+build
+types
+tmpl

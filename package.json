@@ -1,0 +1,21 @@
+{
+  "name": "keyboard",
+  "description": "keyboard press practise",
+  "version": "1.0.0",
+  "author": "kooboy_li <kooboy_li@163.com>",
+  "dependencies": {
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-watch": "5.0.1",
+    "terser": "5.7.1",
+    "through2": "4.0.2",
+    "typescript": "4.3.5"
+  },
+  "private": true,
+  "scripts": {
+    "server": "anywhere -h localhost -p 8888",
+    "watch": "gulp watch",
+    "dist": "gulp dist"
+  }
+}
