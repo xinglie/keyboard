@@ -157,7 +157,8 @@ gulp.task('dist', gulp.series('cleanSrc', () => {
     }).then(() => {
         return gulp.src([
             './src/index.js',
-            './src/views/**'])
+            './src/views/**',
+            './src/i18n/**'])
             .pipe(concat('index.js'))
             .pipe(minify(terserOptions))
             .pipe(gulp.dest('./dist'));
